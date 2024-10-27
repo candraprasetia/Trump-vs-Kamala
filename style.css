@@ -12,6 +12,11 @@ body {
     padding-top: 70px; /* Padding to avoid content being hidden behind navbar */
 }
 
+@font-face {
+    font-family: tulisan_keren;
+    src: url(font/mrsmonster.ttf);
+}
+
 @keyframes slide-in {
         0%  {
     transform: translateX(-50%);
@@ -162,7 +167,7 @@ header p {
 .how-to-buy h2 {
     display: inline-block;
     padding: 10px;
-    font-family: lucida;
+    font-family: tulisan_keren;
     font-size: 1.9em;
     margin-bottom: 30px;
     font-weight: bold;
@@ -238,7 +243,7 @@ header p {
 .about h2 {
     display: inline-block;
     padding: 12px;
-    font-family: lucida;
+    font-family: tulisan_keren;
     font-size: 1.9em; /* Font size for the heading */
     margin-bottom: 20px; /* Space below the heading */
     text-align: center; /* Center the heading */
@@ -276,6 +281,7 @@ header p {
 }
 
 .contact h2 {
+    font-family: tulisan_keren;
     font-size: 2.5em;
     margin-bottom: 20px;
     color: #B12020;
